@@ -76,7 +76,6 @@ header {
   height: 3px;
 } */
 
-
 .welcome {
   padding-bottom: 130px;
   padding-inline: 20px;
@@ -221,16 +220,32 @@ header {
 .shopRow {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
+
   justify-content: center;
-  gap: 24px;
+  gap: 60px;
   margin-inline: 10px;
 }
+.checkbox {
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.checkbox a {
+  color: rgb(219, 49, 56);
+}
+
 .shopCard {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 340px;
 }
+
 .shopCardImg {
   margin-bottom: 27px;
   max-width: 300px;
@@ -248,7 +263,7 @@ header {
 .shopCardText {
   margin-bottom: 30px;
   color: rgb(255, 255, 255);
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 600;
   line-height: 140%;
   letter-spacing: 5%;
@@ -259,7 +274,7 @@ header {
   padding: 10px 20px;
   background: rgb(219, 49, 56);
   color: rgb(255, 255, 255);
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 600;
   line-height: 140%;
   letter-spacing: 5%;
@@ -404,6 +419,41 @@ header {
   letter-spacing: 5%;
   text-align: left;
   text-transform: uppercase;
+}
+
+.test {
+  padding: 50px 0;
+}
+.testTitle {
+}
+.testRow {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 50px;
+  margin-inline: 10px;
+}
+.testCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  border: 1px solid rgb(219, 49, 56);
+  background: rgba(0, 0, 0, 0.374);
+  padding: 25px;
+  border-radius: 5px;
+  max-width: 400px;
+}
+.testCardImg {
+  border-radius: 10px;
+  max-width: 200px;
+}
+.testCardTitle {
+}
+.testCardText {
 }
 
 footer {
