@@ -1,0 +1,48 @@
+.thanks {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.thanks__btn {
+  transition: all 0.3s ease 0s;
+  text-decoration: underline;
+  text-align: center;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+.thanks__page {
+  margin-top: 80px;
+}
+.thanks__title {
+  color: white;
+  font-weight: 900;
+  font-size: 54px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.thanks__text {
+  color: white;
+  font-weight: 400;
+  font-size: 24px;
+  margin-bottom: 70px;
+  line-height: 40px;
+  text-align: center;
+}
+
+@media (max-width: 1190px) {
+  .thanks {
+    padding-top: 170px;
+    padding-bottom: 60px;
+    margin-inline: 20px;
+  }
+
+  .thanks__title {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+  .thanks__text {
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 50px;
+  }
+}

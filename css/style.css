@@ -1,0 +1,539 @@
+body {
+  font-family: Gilroy;
+  font-weight: 400;
+  font-weight: normal;
+  background: rgb(20, 20, 20);
+}
+body.active {
+  overflow: hidden;
+}
+.thanks__btn {
+  background: rgb(219, 49, 56);
+  padding: 15px 25px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+header {
+  width: 100%;
+  padding: 40px 0;
+  position: fixed;
+  top: 0;
+  background: rgba(20, 20, 20, 0.9);
+}
+.container {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.headerLogo {
+  width: 50px;
+}
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-inline: 20px;
+}
+.headerMenuList {
+  display: flex;
+  align-items: center;
+  gap: 160px;
+}
+.headerMenuListLink {
+  color: rgb(255, 255, 255);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 3%;
+  text-align: center;
+}
+/* .headerBurger {
+  cursor: pointer;
+  position: relative;
+  background: rgb(219, 49, 56);
+  width: 40px;
+  height: 3px;
+}
+.headerBurger::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  background: rgb(219, 49, 56);
+  width: 40px;
+  height: 3px;
+}
+.headerBurger::after {
+  content: "";
+  position: absolute;
+  top: 8px;
+  background: rgb(219, 49, 56);
+  width: 40px;
+  height: 3px;
+} */
+
+main {
+}
+.welcome {
+  padding-bottom: 130px;
+  padding-inline: 20px;
+}
+.welcomeTitle {
+  margin-bottom: 61px;
+  padding-top: 130px;
+  color: rgb(219, 49, 56);
+  font-size: 150px;
+  font-weight: 700;
+  line-height: 125%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.welcomeSubtitle {
+  margin-bottom: 55px;
+  color: rgb(255, 255, 255);
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.welcomeBtn {
+  display: block;
+  background: rgb(219, 49, 56);
+  padding: 15px 25px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.contacts {
+  padding: 50px 0;
+}
+.contactsRow {
+  display: flex;
+  justify-content: center;
+
+  flex-wrap: wrap;
+
+  gap: 100px;
+}
+.contactsCard {
+  border-radius: 5px;
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 400px;
+  width: 100%;
+  padding: 20px;
+}
+.contactsCardTitle {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.contactsCardText {
+  max-width: 300px;
+  width: 100%;
+  color: rgb(219, 49, 56);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.preim {
+  padding: 50px 0;
+}
+.preimRow {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.preimLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 90px;
+}
+.preimLeftCard {
+  padding: 14px;
+}
+.preimTitle {
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 42px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.preimLeftCardTitle {
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.preimLeftCardText {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 3%;
+  text-align: left;
+}
+.preimRight {
+  max-width: 800px;
+  border-radius: 10px;
+}
+.shop {
+  padding: 70px 0;
+}
+.shopTitle {
+  margin-bottom: 50px;
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shopRow {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-inline: 10px;
+}
+.shopCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shopCardImg {
+  margin-bottom: 27px;
+  max-width: 300px;
+}
+.shopCardTitle {
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shopCardText {
+  margin-bottom: 30px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.shopCardBtn {
+  padding: 10px 20px;
+  background: rgb(219, 49, 56);
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.obratka {
+  margin-inline: 30px;
+  padding: 50px 0;
+}
+.obratkaTitle {
+  margin-bottom: 40px;
+  color: rgb(255, 255, 255);
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.obratkaInputs {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.obratkaInput {
+  flex: 20%;
+  padding: 15px 20px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  border: 1px solid rgb(137, 137, 137);
+}
+.obratkaInput::placeholder {
+  color: rgb(137, 137, 137);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+  box-sizing: border-box;
+}
+.obratkaInput:focus {
+  border: 1px solid rgb(219, 49, 56);
+}
+.obratkaMessage {
+  margin-bottom: 40px;
+  width: 100%;
+  resize: none;
+  box-sizing: border-box;
+  border: 1px solid rgb(137, 137, 137);
+  padding: 15px 25px;
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.obratkaMessage::placeholder {
+  color: rgb(137, 137, 137);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.obratkaMessage:focus {
+  border: 1px solid rgb(219, 49, 56);
+}
+.obratkaBottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+.obratkaBtn {
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+  background: rgb(219, 49, 56);
+  padding: 15px 25px;
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: center;
+  text-transform: uppercase;
+}
+.obratkaAdress {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.obratkaAdressText {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.obratkaPhone {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.obratkaPhoneText {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+.obratkaEmail {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.obratkaEmailText {
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 140%;
+  letter-spacing: 5%;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+footer {
+  padding: 50px 0;
+  background: black;
+}
+.footerRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-inline: 20px;
+}
+.footerNumber {
+  color: rgb(255, 255, 255);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 3%;
+  text-align: center;
+}
+.footerLic {
+  color: rgb(255, 255, 255);
+
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 120%;
+  letter-spacing: 3%;
+  text-align: center;
+}
+
+@media (max-width: 998px) {
+  .footerRow {
+    justify-content: center;
+    gap: 70px;
+  }
+  .footerNumber {
+    font-size: 13px;
+  }
+  .footerLic {
+    font-size: 13px;
+  }
+  .shop {
+    padding-bottom: 30px;
+  }
+  .obratka {
+    padding: 20px 10px;
+  }
+  .contactsRow {
+    gap: 40px;
+  }
+  .contactsCardText {
+    font-size: 15px;
+  }
+  .welcomeTitle {
+    font-size: 50px;
+    margin-bottom: 20px;
+  }
+  .welcomeSubtitle {
+    font-size: 18px;
+  }
+  .welcome {
+    padding-bottom: 50px;
+  }
+  .preim {
+    padding-inline: 40px;
+  }
+
+  .headerMenuList {
+    gap: 40px;
+  }
+  .headerMenuListLink {
+    font-size: 13px;
+  }
+  .shopTitle {
+    margin: 0;
+    font-size: 40px;
+  }
+  .preimTitle {
+    font-size: 35px;
+    margin-left: 10px;
+  }
+  .obratkaTitle {
+    font-size: 30px;
+  }
+  .preimLeftCardTitle {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .preimLeftCardText {
+    font-size: 18px;
+  }
+  .preimLeft {
+    gap: 20px;
+  }
+  .preim {
+    padding: 20px 0;
+  }
+  .obratkaBtn {
+    font-size: 20px;
+  }
+  .shopCardText {
+    font-size: 14px;
+  }
+  .contacts {
+    padding-top: 20px;
+  }
+  .contactsRow {
+    justify-content: center;
+  }
+  .contactsCard {
+    max-width: 300px;
+  }
+}
+@media (max-width: 400px) {
+  .headerRow {
+    margin-inline: 5px;
+  }
+  .headerMenuList {
+    gap: 15px;
+  }
+  .welcomeTitle {
+    font-size: 45px;
+    margin-bottom: 20px;
+  }
+  .preimTitle {
+    font-size: 35px;
+  }
+  .shopTitle {
+    font-size: 35px;
+  }
+}
